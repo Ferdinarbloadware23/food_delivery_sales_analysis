@@ -1,5 +1,5 @@
 
-# Food Delivery Sales Analysis (ShopeeFood)
+# Food Delivery Sales Analysis ShopeeFood
 
 ## Project Overview
 

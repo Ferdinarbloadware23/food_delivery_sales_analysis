@@ -105,15 +105,12 @@ Main steps performed:
 ---
 
 ## Repository Structure
-project-folder/
-
-data/
-sample_sales.csv
+food_delivery_sales_analysis/
 
 excel/
-food_delivery_sales_analysis.xlsx
+    food_delivery_sales_analysis.xlsx
 
 images/
-dashboard.png
+    dashboard.png
 
 README.md

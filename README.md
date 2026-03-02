@@ -4,19 +4,19 @@
 
 This project analyzes sales performance of a small food business operating through the ShopeeFood platform.
 
-The goal is to understand revenue trends, platform costs, and operational performance to support better business decisions.
+The objective is to understand revenue performance, platform cost impact, and customer ordering behavior to support better business decisions.
 
-Period: November 2025 – January 2026
-Tools: Google Sheets / Microsoft Excel
+Period: November 2025 – January 2026  
+Tools: Google Sheets / Microsoft Excel  
 
 ---
 
 ## Objectives
 
-* Measure monthly revenue performance
-* Understand the impact of platform fees
-* Identify peak sales hours
-* Track business trends over time
+- Measure revenue performance across the observed period  
+- Understand the impact of platform fees on net revenue  
+- Identify peak ordering hours  
+- Explore operational patterns from transaction data  
 
 ---
 
@@ -26,36 +26,37 @@ Data was exported from the ShopeeFood Partner dashboard.
 
 Characteristics:
 
-* One row represents one order transaction
-* Includes gross amount, commission, subsidy, and net revenue
-* Covers three months of operations
+- One row represents one order transaction  
+- Includes gross amount, commission fee, subsidy, and net revenue  
+- Covers three months of operations  
+- Duplicate transactions were removed during data cleaning  
 
 ---
 
 ## Project Structure
 
-The project is organized into three main parts:
+The project is organized into three main components:
 
 ### Raw Data
 
-* `staging_sales`
-* `dim_store`
+- staging_sales  
+- dim_store  
 
-Contains cleaned transactional data from the source system.
+Contains cleaned transactional data prepared for analysis.
 
 ### Analysis
 
-* Monthly pivot tables
-* Hourly analysis
-* KPI calculations
+- Monthly pivot tables  
+- Hourly pivot tables  
+- KPI calculations  
 
-Used to transform raw data into meaningful metrics.
+Used to transform raw data into meaningful business metrics.
 
 ### Dashboard
 
-* KPI summary
-* Monthly trends
-* Sales distribution by hour
+- KPI summary cards  
+- Monthly revenue visualization  
+- Order distribution by hour  
 
 Provides a visual overview of business performance.
 
@@ -63,62 +64,54 @@ Provides a visual overview of business performance.
 
 ## Data Preparation
 
-Main steps:
+Main steps performed:
 
-* Standardizing date and time formats
-* Extracting month and hour features
-* Validating numeric fields
-* Building pivot tables for analysis
+- Standardizing date and time formats  
+- Extracting month and hour features  
+- Validating numeric fields  
+- Removing duplicate rows  
+- Building pivot tables for analysis  
 
 ---
 
 ## Key Metrics
 
-* Total Orders
-* Gross Sales
-* Net Revenue
-* Platform Fee Ratio
-* Average Order Value
-* Monthly Growth
+- Total Orders  
+- Gross Revenue  
+- Net Revenue  
+- Platform Fee Ratio  
+- Average Order Value (AOV)  
 
 ---
 
 ## Key Insights
 
-* Platform fees account for a significant portion of revenue.
-* Sales activity is concentrated around lunch hours.
-* Monthly performance varies depending on promotional intensity.
+- Revenue remained relatively stable across the three-month period, indicating consistent demand without strong growth or decline.  
+- Platform fees account for around 45% of gross revenue, showing that commissions and promotional subsidies significantly impact profitability.  
+- Order activity increases starting from 6 PM and peaks between 8 PM and 10 PM, confirming dinner time as the primary revenue driver.  
+- Average order value is around Rp36K per transaction, which is typical for quick-service food categories and suggests potential for upselling or bundle strategies.  
 
 ---
 
 ## Tools Used
 
-* Google Sheets / Microsoft Excel
-* Pivot Tables
-* Data Cleaning Functions
-* Basic Visualization
+- Google Sheets / Microsoft Excel  
+- Pivot Tables  
+- Spreadsheet Functions  
+- Basic Data Visualization  
 
 ---
 
 ## Repository Structure
-
-```
 project-folder/
 
 data/
-    sample_sales.csv
+sample_sales.csv
 
 excel/
-    Food_Delivery_Sales_Analysis.xlsx
+food_delivery_sales_analysis.xlsx
 
 images/
-    dashboard.png
+dashboard.png
 
 README.md
-```
-
----
-
-## Author
-
-This project was created as part of personal learning and portfolio development using a real business case.

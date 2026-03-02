@@ -1,5 +1,7 @@
 # Food Delivery Sales Analysis (ShopeeFood)
 
+![ShopeeFood Dashboard Preview](dashboard_preview.png)
+
 ## Overview
 
 This project analyzes sales performance of a small food business operating through the ShopeeFood platform.
